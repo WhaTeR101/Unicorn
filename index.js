@@ -8,3 +8,9 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 };
+const toggleButton = document.getElementsByClassName('navbar-toggle-button')[0];
+const navbarLinks = document.getElementsByClassName('nav-list')[0];
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active');
+});
