@@ -474,6 +474,9 @@ input {
     margin: 0;
     padding: 0;
   }
+  html,body{
+    overflow-x: hidden;
+  }
   header {
     background-color: rgba(35, 35, 35, 0.7);
     position: fixed;
@@ -537,10 +540,10 @@ input {
     width: 100%;
   }
   .section-1 h2 {
-    margin-top: 100%;
+    margin-top: 70%;
     font-size: 30px;
     font-family: 'sourcesansblack';
-    margin-left: 7.5%;
+    margin-left: 25%;
   }
   .section-1 div {
     position: absolute;
@@ -549,20 +552,21 @@ input {
     flex-direction: column;
   }
   .underline {
-    margin: 2% 0 2% 45%;
+    margin: 2% 0 2% 36%;
     width: 30%;
   }
   .section-1-p {
-    text-align: right;
-    margin-top: 4%;
-    margin-right: 25%;
+    text-align: center;
     line-height: 30px;
     font-size: 18px;
+    width: 90%;
+    padding: 0% 10% 0 10%;
+    margin: 0 0 0 4%;
   }
   .section-1 div button {
-    width: 272px;
-    height: 50px;
-    margin-left: 35%;
+    width: 150px;
+    height: 30px;
+    margin-left: 30%;
     margin-top: 6%;
     background-color: transparent;
     cursor: pointer;
@@ -575,7 +579,8 @@ input {
     transition: 0.5s;
   }
   .section-2 {
-    padding: 10% 22%;
+    padding: 10%;
+    margin-top: 95%;
   }
   .section-2 img {
     display: block;
@@ -597,20 +602,25 @@ input {
   }
   .section-3 {
     background-color: #efefef;
-    padding: 7% 5%;
+    padding: 5%;
   }
   .section-3 div {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
   }
   .section-3 div article {
-    width: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .section-3 div article img {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   .section-3 div article h4 {
-    margin-bottom: 15%;
+    margin-bottom: 3%;
     font-size: 18px;
     font-family: 'sourcesanssemibold';
   }
@@ -621,7 +631,7 @@ input {
     font-family: 'sourcesansregular';
   }
   .section-4 {
-    padding: 9%;
+    padding: 5%;
   }
   .section-4 h3 {
     text-align: center;
@@ -629,7 +639,7 @@ input {
     font-family: 'sourcesansbold';
   }
   .section-4-p {
-    width: 750px;
+    width: 340px;
     text-align: center;
     margin: auto;
     padding: 4% 4% 6% 4%;
@@ -638,8 +648,8 @@ input {
     font-family: 'sourcesansregular';
   }
   .section-4 div article {
-    width: 370px;
-    height: 370px;
+    width: 320px;
+    height: 200px;
     background-color: #222222;
     padding: 6% 4%;
     transition: 0.8s;
@@ -665,13 +675,13 @@ input {
     text-align: left;
     font-family: 'sourcesansregular';
     color: #eeeeee;
-    margin-bottom: 9%;
+    margin-bottom: 2%;
   }
   .section-4-article-p {
     font-size: 24px;
     font-family: 'sourcesansregular';
     color: #eeeeee;
-    margin-bottom: 37%;
+    margin-bottom: 0;
     line-height: 35px;
   }
   .section-4-name-n-date {
@@ -682,20 +692,27 @@ input {
   }
   .section-4 div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
   }
   .section-5 {
     background-color: #efefef;
-    padding: 6% 20% 8% 20%;
+    padding: 6% 2% 8% 2%;
   }
   .section-5 h3 {
     font-size: 27px;
     font-family: 'sourcesansbold';
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     text-align: center;
   }
+  .clients-img {
+    width: 100%;
+  }
   .section-6 {
-    padding: 8%;
+    padding: 2%;
   }
   .section-6 h3 {
     text-align: center;
@@ -704,7 +721,7 @@ input {
     margin-bottom: 3%;
   }
   .section-6 p {
-    width: 760px;
+    width: 340px;
     line-height: 30px;
     font-size: 16px;
     font-family: 'sourcesansregular';
@@ -715,7 +732,7 @@ input {
   .underline-2 {
     display: block;
     margin: auto;
-    margin-bottom: 3%;
+    margin-bottom: 8%;
   }
   .section-6 ul {
     margin-bottom: 8%;
@@ -733,11 +750,12 @@ input {
     transition: 0.3s;
   }
   .portfolionscreens {
+    width: 100%;
     display: block;
     margin: auto;
   }
   .section-7 {
-    padding: 10% 22% 6% 22%;
+    padding: 8% 6% 6% 5%;
     background-color: #212121;
   }
   .section-7 p,
@@ -768,12 +786,12 @@ input {
     margin-bottom: 7%;
   }
   .section-8 div article img {
-    margin-bottom: 55px;
+    margin-bottom: 15%;
   }
   .crew-name {
     font-size: 16px;
     font-family: 'sourcesansbold';
-    margin-bottom: 15px;
+    margin-bottom: 6%;
   }
   .role {
     font-size: 15px;
@@ -781,17 +799,20 @@ input {
   }
   .section-8 div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
   }
   .factsandnumbersbg {
     width: 100%;
     position: absolute;
     z-index: 2;
+    display: none;
   }
   .facts-numbers {
     position: relative;
     z-index: 3;
-    margin: 0 20%;
+    margin: 0;
     padding-top: 7%;
   }
   .section-9 h4 {
@@ -802,11 +823,11 @@ input {
     color: white;
   }
   .section-9 div blockquote {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10%;
     display: grid;
     justify-content: center;
-    column-gap: 100px;
+    column-gap: 140px;
     row-gap: 20px;
     grid-template-columns: 25% 25%;
     grid-template-rows: 60% 60%;
@@ -817,23 +838,39 @@ input {
   .section-9 div blockquote article {
     text-align: center;
     display: inline-block;
-    color: white;
+    color: white
     font-family: 'sourcesanspro';
   }
   .facts-numbers-orange-underline {
-    margin-left: 46%;
+    margin-left: 39%;
     margin-right: 49%;
   }
   .section-10 {
     padding: 22% 10% 10% 10%;
   }
+  .s-10-div-1 {
+    border: #212121b1 solid 1px;
+    margin-bottom: 5%;
+  }
+  .s-10-div-2 {
+    border: #212121b1 solid 1px;
+    margin-bottom: 5%;  
+  }
+  .s-10-div-3 {
+    border: #212121b1 solid 1px;
+  }
+  .section-10 div img {
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+  }
+
   .section-10 div article {
     display: inline-block;
     text-align: center;
-    width: 50%;
+    width: 100%;
     padding: 10%;
-    vertical-align: top;
   }
+
   .section-10 div article h6 {
     color: #555555;
     font-size: 14px;
@@ -922,13 +959,14 @@ input {
   }
   .section-f-2 {
     width: 20%;
+    line-height: 50px;
   }
   input,
   .send-btn {
     border: none;
   }
   footer input {
-    margin-bottom: 3%;
+    margin-bottom: 45%;
     padding: 10px;
     border-bottom: solid 2px #999999;
   }
