@@ -12,5 +12,10 @@ const toggleButton = document.getElementsByClassName('navbar-toggle-button')[0];
 const navbarLinks = document.getElementsByClassName('nav-list')[0];
 
 toggleButton.addEventListener('click', () => {
+  setTimeout(function () {
+    navbarLinks.classList.toggle('active');
+  }, 200);
+});
+navbarLinks.addEventListener('click', () => {
   navbarLinks.classList.toggle('active');
 });

@@ -474,7 +474,8 @@ input {
     margin: 0;
     padding: 0;
   }
-  html,body{
+  html,
+  body {
     overflow-x: hidden;
   }
   header {
@@ -493,7 +494,7 @@ input {
   }
 
   header div {
-    margin-top: 3.7%;
+    margin-top: 1.7%;
     display: flex;
     justify-content: space-between;
   }
@@ -508,12 +509,20 @@ input {
     display: inline-block;
   }
   .nav-list {
-    display: none;
     padding: 10px;
+    margin-top: -50px;
+    margin-left: 21%;
+    opacity: 0;
+    transition: 0.2s;
     background-color: rgba(35, 35, 35, 0.7);
   }
   .nav-list.active {
     display: flex;
+    gap: 10px;
+    margin-top: 6.81%;
+    margin-left: 21%;
+    opacity: 1;
+    transition: 0.2s;
     flex-direction: column;
   }
   header nav li {
@@ -838,7 +847,7 @@ input {
   .section-9 div blockquote article {
     text-align: center;
     display: inline-block;
-    color: white
+    color: white;
     font-family: 'sourcesanspro';
   }
   .facts-numbers-orange-underline {
@@ -854,7 +863,7 @@ input {
   }
   .s-10-div-2 {
     border: #212121b1 solid 1px;
-    margin-bottom: 5%;  
+    margin-bottom: 5%;
   }
   .s-10-div-3 {
     border: #212121b1 solid 1px;
